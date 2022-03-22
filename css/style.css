@@ -1,0 +1,100 @@
+:root{
+    --header_footer_bg_color: #1F2937;
+    --header_title_and_logo_color: #F9FAF8;
+    --header_link_and_secondary_text: #E5E7EB;
+
+    --button_color_lower_section_bg_color: #3882f6;
+    --header_information_text: #1F2937;
+    --qoute_section_bg_color: #E5E7EB;
+    --qoute_text_color : #1F2937;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+/*----------------------------------Start general styleing------------------------------------------------------*/
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*----------------------------------- Start of header styling ---------------------------------------------*/
+
+.header {
+    background-color: var(--header_footer_bg_color);
+    height: 500px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header_logo_container {
+    width: 40%;
+}
+
+.nav_bar_container {
+    width: 60%;
+    height: inherit;
+}
+
+.nav_bar_list {
+    display: flex;
+    justify-content: right;
+    height: 71.533px;
+}
+
+.nav_bar_list_item {
+    margin-left: 20px;
+    height: inherit;
+    padding-top: 8px;
+}
+
+.header_contents_container {
+    margin-top: 60px;
+}
+
+.dividing_contents {
+    display: flex;
+    width: 100%;
+}
+
+.header_content_left {
+    width: 56%;
+}
+
+.header_content_right {
+    width: 44%;
+}
+
+.header_content_right_container {
+    background-color: grey;
+    width: 520px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    margin-left: 115px;
+}
+
+.image_box {
+    width: inherit;
+}
+
+.image_box_text {
+    text-align: center;
+}
